@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "FirebirdSql.Data.FirebirdClient/7.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "FirebirdSql.Data.FirebirdClient/7.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "FirebirdSql.Data.FirebirdClient/7.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "FirebirdSql.Data.FirebirdClient/7.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirebirdSql.Data.FirebirdClient/7.1.1": {
+      "sha512": "na+kT2eU8TwyPvXsZ57bBDyUbEyA1dOkqQlyrqZNmnbF64x3oEmDsz9vKRKNql3lfrfhCyiFBY0fS3pTE2Pisg==",
+      "type": "package",
+      "path": "firebirdsql.data.firebirdclient/7.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebirdsql.data.firebirdclient.7.1.1.nupkg.sha512",
+        "firebirdsql.data.firebirdclient.nuspec",
+        "lib/net452/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/netstandard2.0/FirebirdSql.Data.FirebirdClient.dll",
+        "license.txt",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "FirebirdSql.Data.FirebirdClient >= 7.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Adem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Adem\\Documents\\GitHub\\FB3EmbedDotNetExample\\FB3EmbedDotNetExample.csproj",
+      "projectName": "FB3EmbedDotNetExample",
+      "projectPath": "C:\\Users\\Adem\\Documents\\GitHub\\FB3EmbedDotNetExample\\FB3EmbedDotNetExample.csproj",
+      "packagesPath": "C:\\Users\\Adem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adem\\Documents\\GitHub\\FB3EmbedDotNetExample\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Adem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "FirebirdSql.Data.FirebirdClient": {
+            "target": "Package",
+            "version": "[7.1.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

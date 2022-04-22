@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ImBikZ/MWyYvHWv/SUHcl/yqtx5UAKFGv6jt5xOUH1DY8MtZiUQU1Sq98EcxAmcuY8RpTWWF2TGr7ukeQIIAlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adem\\Documents\\GitHub\\FB3EmbedDotNetExample\\FB3EmbedDotNetExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adem\\.nuget\\packages\\firebirdsql.data.firebirdclient\\7.1.1\\firebirdsql.data.firebirdclient.7.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
